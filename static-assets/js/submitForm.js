@@ -23,11 +23,11 @@ function mySendEmail(e){
 
 function sendEmail(name, email, address, phone, note, tableItems, sumPrice){
     Email.send({
-    Host : "smtp.gmail.com",
-    Username : "nguyenphongvg39@gmail.com",
-    Password : "lypewaqenqfiuesu",
-    To : 'nguyenphongvg39@gmail.com',
-    From : "nguyenphongvg39@gmail.com",
+    Host : "pro50.emailserver.vn",
+    Username : "online@mavinfood.com",
+    Password : "Gyeidhe&635",
+    To : 'huong.nguyen@mavinfood.com',
+    From : "online@mavinfood.com",
     Subject : `Khách hàng: ${name} với Email: ${email} có một đơn hàng mới`,
     Body : `Tên khách hàng: ${name} <br/> `
          + `Email: ${email} <br/>`
